@@ -5,6 +5,13 @@ const morgan = require('morgan');
 
 app.use(morgan('tiny'))
 
+app.use((req, res, next) => {
+    if (res.statusCode = 200) {
+        console.log('Successfully connected to the desired page without needing a redirect.')
+    }
+    next();
+})
+
 
 
 app.get('/', (req, res) => {
