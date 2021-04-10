@@ -12,7 +12,10 @@ app.use((req, res, next) => {
     next();
 })
 
-
+app.use((req, res, next) => {
+    console.log(req.method, req.path, res.statusCode)
+    next()
+})
 
 app.get('/', (req, res) => {
     res.send('home page')
