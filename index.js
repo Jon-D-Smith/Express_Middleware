@@ -25,6 +25,12 @@ app.get('/dogs', (req, res) => {
     res.send('woof woof')
 })
 
+
+//404 Route
+app.use((req, res) => {
+    res.status(404).send("NOT FOUND")
+})
+
 app.listen(port, () => {
     console.log(`Connected on port ${port}`)
 })
