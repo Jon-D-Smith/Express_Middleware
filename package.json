@@ -1,0 +1,25 @@
+{
+  "name": "Express_Middleware",
+  "version": "1.0.0",
+  "description": "Practicing with express middleware",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-D-Smith/Express_Middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jon-D-Smith/Express_Middleware/issues"
+  },
+  "homepage": "https://github.com/Jon-D-Smith/Express_Middleware#readme"
+}
